@@ -22,7 +22,8 @@
 - Arguments for Options: command options can also take their own arguments (inputs).
 
 > $ cal -A 1 -B 1 12 2017
-![](./images/args.png)
+
+![args](./images/args.png)
 
 ### **1.2 In linux manual have number of session with specific usage**
 
@@ -32,7 +33,7 @@
 
 ## **2. Hands on**
 
-- Use `man + -k + command to search` (ex: `man -k which`) command look through the manual.
+- Use `man + -k + command to search` (ex: `man -k which`) command look through the manual. Or if you want to find command with their work => you can use `man + -k + <command effect>` (ex: `man -k "list directory contents"`). 
 
 ![man](./images/man.png)
 
@@ -47,3 +48,8 @@
 - when you read the session i think you have confuse about some command input require like `[THING], <THING>, THING..., THING1 | THING2,...` => It's call ``Command Synopsis``. And here is the cheat sheet for them.
 
 ![synopsis](./images/command_synopsis.png)
+
+- Some command defined itself in shell , not in the `manual` and you can find them by using `help` command.
+
+> Check the `help` command support by type `$ help` in terminal and you can get the list.
+
