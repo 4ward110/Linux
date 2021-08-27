@@ -69,5 +69,3 @@
 - And you can unzip a `gz` or `bz2` file by using `tar -xvzf <name>.tar.gz` or  `tar -xvjf <name>.tar.bz2`
 
 - To create a `.zip` file you just 1 step `zip <your-file>` & `unzip`
-
--
